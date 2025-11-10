@@ -3,7 +3,7 @@ project:
   title:        "Counter"      # Project title
   author:       "Isak Hadi och Izabella Hagberg"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  description:  "LiU Counter"      # One line description of what your project does
   language:     "VHDL"  # other examples include Verilog, SystemVerilog, Amaranth, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -26,7 +26,7 @@ project:
 # This section is for the datasheet/website. Use descriptive names (e.g., RX, TX, MOSI, SCL, SEG_A, etc.).
 pinout:
   # Inputs
-  ui[0]: "direction [count up || down]" 
+  ui[0]: "direction [count up || down]"
   ui[1]: ""
   ui[2]: ""
   ui[3]: ""
@@ -40,7 +40,7 @@ pinout:
   uo[1]: "7seg b"
   uo[2]: "7seg c"
   uo[3]: "7seg d"
-  uo[4]: "7seg e" 
+  uo[4]: "7seg e"
   uo[5]: "7seg f"
   uo[6]: "7seg g"
   uo[7]: "7seg h (dot)"

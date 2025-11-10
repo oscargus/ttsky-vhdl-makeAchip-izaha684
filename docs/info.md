@@ -9,11 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+This is a four-bit counter with seven-segment display output. The direction is determined by input pin 0 and it will saturate at 15 when counting up and 0 when counting down.
 
 ## How to test
 
-Explain how to use your project
+Connect a clock and use input pin 0 to control direction.
 
 ## External hardware
 
